@@ -3,6 +3,7 @@ Python App Dockerization for Production Environment (multiple containers ) that 
 
 
 Prerequisites: 
+-----------------------------------------------------------------------------------------------------------------------------
 
 Make sure you have already installed: 
 
@@ -14,11 +15,12 @@ Make sure you have already installed:
 We are using the word Docker again and again . So what exactly Docker is :
 
 Docker is a tool that facilitate the developers to create, deploy, and run applications by using containers. 
+-----------------------------------------------------------------------------------------------------------------------
 
 There is a keyword “containers” in this definition .Let see what is container in connection with Docker:
 
 Container is a standard unit of software that packages up code and all its dependencies so the application runs smoothly from one computing environment to another.
-
+----------------------------------------------------------------------------------------------------------------------------
 You can consider container as a box which has your application’s source code and all the dependencies that will be compulsory for your application to run .This will be independent of the host OS .You just need to install Docker on your machine ,pull the images and run the containers .
 
 
@@ -31,6 +33,7 @@ Containers give us a way to virtualize an OS so that multiple workloads can run 
 While VMs, demands the hardware virtualization to run multiple OS instances. VM generally runs a full-blown operating system, on top of the OS the host is already running.
 
 Deployment:
+-------------------------------------------------------------------------------------------------------------------------
 
 Now we move ahead to see how we can make containers. The question arises :
 
@@ -58,6 +61,7 @@ container.
 
 
 The workflow will look like this: 
+-----------------------------------------------------------------------------------------------------------------------------
 
 1-We will create Dockerfiles for each service to build images.
 
